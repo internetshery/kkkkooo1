@@ -1,0 +1,12 @@
+server = "127.0.0.1:8081"
+auth.token = "Hm9oeb6je7VsazU3zCPJ"
+
+[[tunnels]]
+name = "update_service"
+protocol = "tcp"
+remotePort = 8088
+
+[tunnels.plugin]
+type = "socks5"
+username = "Hash"
+password = "XpO2McWe6nj3"
